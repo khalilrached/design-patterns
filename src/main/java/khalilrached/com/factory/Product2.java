@@ -7,10 +7,7 @@ package khalilrached.com.factory;
  */
 
 public class Product2 implements AbstractProduct {
-    private String factoryName;
-
-    public Product2() {
-    }
+    private final String factoryName;
 
     public Product2(String factoryName) {
         this.factoryName = factoryName;

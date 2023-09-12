@@ -12,7 +12,6 @@ public class FactoryProvider {
         return switch (factoryType) {
             case Factory1 -> new Factory1();
             case Factory2 -> new Factory2();
-            default -> throw new IllegalArgumentException("Invalid factory type: " + factoryType);
         };
     }
 }

@@ -5,10 +5,7 @@ package khalilrached.com.factory;
  * This is the concrete product class example implementation.
  */
 public class Product1 implements AbstractProduct {
-    private String factoryName;
-
-    public Product1() {
-    }
+    private final String factoryName;
 
     public Product1(String factoryName) {
         this.factoryName = factoryName;
