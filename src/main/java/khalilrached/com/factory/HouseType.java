@@ -6,12 +6,12 @@ package khalilrached.com.factory;
  * This is the class that provides the factory based on the factory type.
  */
 
-public class FactoryProvider {
+public class HouseType {
 
-    public static AbstractFactory getFactory(FactoryType factoryType) {
+    public static HouseFactory getFactory(FactoryType factoryType) {
         return switch (factoryType) {
-            case Factory1 -> new Factory1();
-            case Factory2 -> new Factory2();
+            case ClassicHouse -> new ClassicHouseFactory();
+            case ModernHouse -> new ModernHouseFactory();
         };
     }
 }

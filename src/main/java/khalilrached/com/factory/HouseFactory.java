@@ -6,7 +6,8 @@ package khalilrached.com.factory;
  * It is the interface that defines the methods to be implemented by the concrete factories.
  */
 
-public interface AbstractFactory {
-    Product1 createProduct1();
-    Product2 createProduct2();
+public interface HouseFactory {
+    House createHouse();
+    Door createDoor();
+    Wall createWall();
 }

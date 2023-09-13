@@ -5,6 +5,6 @@ package khalilrached.com.factory;
  * This is the enum that defines the types of factories.
  */
 public enum FactoryType {
-    Factory1,
-    Factory2
+    ModernHouse,
+    ClassicHouse,
 }
