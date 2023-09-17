@@ -1,4 +1,4 @@
-package singleton;
+package khalilrached.com.singleton;
 
 public class Connection {
     private String url;
